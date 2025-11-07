@@ -56,7 +56,7 @@
 
             nativeBuildInputs = with pkgs; [
               pkg-config
-              wrapGAppsHook
+              wrapGAppsHook3
             ];
             buildInputs = with pkgs; [
               gtk3
